@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "nsane-designs-static-web-app": {
+      "appLocation": ".",
+      "apiLocation": "http://localhost:7071",
+      "outputLocation": "dist",
+      "appBuildCommand": "npm run build",
+      "apiBuildCommand": "dotnet publish -c Release",
+      "run": "npm run serve",
+      "appDevserverUrl": "http://localhost:8080",
+      "apiDevserverUrl": "http://localhost:7071"
+    }
+  }
+}
